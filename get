@@ -14,7 +14,7 @@ thisday="$(date +%d)"
 mkdir -p input
 
 year=2020
-for day in {1..25}; do
+for day in {1..2}; do
   if [ "$year" -eq "$thisyear" -a "$thismonth" -ne 12 ]; then
       exit 0
   fi
