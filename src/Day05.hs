@@ -1,5 +1,4 @@
 module Day05 (main) where
-import Data.List (sort)
 
 range :: (Int, Int) -> Char -> (Int, Int)
 range (low, high) 'F' = (low, low + (high - low) `div` 2)
